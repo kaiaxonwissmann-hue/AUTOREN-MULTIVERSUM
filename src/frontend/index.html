@@ -7,24 +7,24 @@
     <style>
         body { font-family: 'Georgia', serif; background-color: #f9f9f9; color: #222; line-height: 1.8; margin: 0; padding: 0; }
         
-        /* Die Navigation - einfach und klar */
         nav { background: #1a1a1a; padding: 15px 0; text-align: center; position: sticky; top: 0; z-index: 1000; }
         nav a { color: #eee; margin: 0 20px; text-decoration: none; font-size: 1.1em; letter-spacing: 1px; }
         nav a:hover { color: #ffcc00; }
 
-        /* Der Header */
-        header { background: #fff; padding: 60px 20px; text-align: center; border-bottom: 5px solid #1a1a1a; }
-        h1 { font-size: 2.5em; margin-bottom: 10px; color: #1a1a1a; }
-        .subtitle { font-style: italic; color: #666; font-size: 1.2em; }
+        /* Bereich für das 3D Banner */
+        .hero-3d { 
+            width: 100%; 
+            height: 600px; /* Höhe des Banners */
+            background: #fff; 
+            border-bottom: 5px solid #1a1a1a;
+        }
 
-        /* Inhaltsbereiche */
         .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
         section { margin-bottom: 60px; }
         
         .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-left: 8px solid #333; }
         h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
 
-        /* Die Quarz-Pieppen Sektion */
         .pieppen-alarm { background: #fffbe6; border: 2px dashed #ffcc00; padding: 20px; text-align: center; border-radius: 10px; }
         .warnung { color: #d32f2f; font-weight: bold; text-transform: uppercase; }
 
@@ -40,18 +40,18 @@
     <a href="#contact">Kontakt</a>
 </nav>
 
-<header id="home">
-    <h1>Autoren-Multiversum</h1>
-    <p class="subtitle">Kai A. Wissmann & Viktor Kian.</p>
-</header>
+<!-- HIER IST DEIN SPLINE BANNER -->
+<div class="hero-3d" id="home">
+    <iframe src='https://my.spline.design/liquidglasslgw09-bwLcgOmt61uRJDK5Wl2kMOtB/' frameborder='0' width='100%' height='100%'></iframe>
+</div>
 
 <div class="container">
 
     <section id="buecher">
         <div class="card">
             <h2>Neue Bücher</h2>
-            <p> Märchenhafte Erzählungen</p>
-            <p>Die Webseite ist in bearbeitung</p>
+            <p>Märchenhafte Erzählungen</p>
+            <p>Die Webseite ist in Bearbeitung</p>
         </div>
     </section>
 
@@ -73,14 +73,13 @@
 
 </div>
 
-<footer style="text-align: center; padding: 40px; font-size: 0.9em; color: #888;">
+<footer>
     <div style="margin-bottom: 20px;">
-        <img src="logojb.png" alt="JeyBee Pixel Logo" style="width: 100px; height: auto; opacity: 1.0;">
+        <img src="logojb.png" alt="JeyBee Pixel Logo" style="width: 100px; height: auto;">
     </div>
     <p>&copy; 2025 JeyBee Pixel &plusmn;&sup3; Print | ART</p>
     <p>Autoren-Multiversum - Erstellt im digitalen Sandkasten.</p>
 </footer>
-
 
 </body>
 </html>
