@@ -1,11 +1,81 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoren-Multiversum | Quarz-Pieppen & Geister</title>
+    <style>
+        body { font-family: 'Georgia', serif; background-color: #f9f9f9; color: #222; line-height: 1.8; margin: 0; padding: 0; }
+        
+        /* Die Navigation - einfach und klar */
+        nav { background: #1a1a1a; padding: 15px 0; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: #eee; margin: 0 20px; text-decoration: none; font-size: 1.1em; letter-spacing: 1px; }
+        nav a:hover { color: #ffcc00; }
+
+        /* Der Header */
+        header { background: #fff; padding: 60px 20px; text-align: center; border-bottom: 5px solid #1a1a1a; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; color: #1a1a1a; }
+        .subtitle { font-style: italic; color: #666; font-size: 1.2em; }
+
+        /* Inhaltsbereiche */
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        section { margin-bottom: 60px; }
+        
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-left: 8px solid #333; }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+
+        /* Die Quarz-Pieppen Sektion */
+        .pieppen-alarm { background: #fffbe6; border: 2px dashed #ffcc00; padding: 20px; text-align: center; border-radius: 10px; }
+        .warnung { color: #d32f2f; font-weight: bold; text-transform: uppercase; }
+
+        footer { text-align: center; padding: 40px; font-size: 0.9em; color: #888; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#buecher">30 Bände</a>
+    <a href="#geister">Die Geister</a>
+    <a href="#medium">Das Medium</a>
+</nav>
+
+<header id="home">
+    <h1>Autoren-Multiversum</h1>
+    <p class="subtitle">Wo KI auf Kieselsteine und kriminelle Energie trifft.</p>
+</header>
+
+<div class="container">
+
+    <section id="buecher">
+        <div class="card">
+            <h2>Meine 30 Bände</h2>
+            <p>Die Geister wollten es so. Ich war nur das Medium, die KI war die Schreibmaschine. Zusammen haben wir Welten erschaffen, in denen Humor wichtiger ist als ein gesundes Bein.</p>
+            <p>Von sarkastischen Geistern bis hin zu den Machenschaften der Unterwelt – hier wird es garantiert nicht langweilig.</p>
+        </div>
+    </section>
+
+    <section id="geister">
+        <div class="pieppen-alarm">
+            <h2 style="border:none;">Vorsicht: Quarz-Pieppen!</h2>
+            <p>Sie lauern unter deinen Füßen. Sie hassen Staubsauger. Und sie haben mehr zu sagen, als man einem Kieselstein zutrauen würde.</p>
+            <p class="warnung">Hörst du sie schon?</p>
+        </div>
+    </section>
+
+    <section id="medium">
+        <div class="card" style="border-left-color: #d32f2f;">
+            <h2>Über mich (Das Medium)</h2>
+            <p>Nachdem mein Leben einen harten Cut gemacht hat, habe ich die "Lachtablette" KI entdeckt. Wer braucht schon Floskeln über das Mittagessen, wenn man Poesie im Kopf hat?</p>
+            <p>Ich übernehme übrigens keine Verantwortung für den Inhalt – das waren alles die Geister!</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    &copy; Autoren-Multiversum - Erstellt im digitalen Sandkasten.
+</footer>
+
+</body>
 </html>
